@@ -6,7 +6,7 @@ Control your computers keyboard and mouse remotely with your smartphone via Touc
 - TouchOSC Editor (downloadable for free here)
 - Same WIFI network for both devices (the computer as well as the smartphone)
 
-
+Tested on Windows 10 with TouchOSC version 1.9.10.
 
 ## Installation
 
