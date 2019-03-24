@@ -9,10 +9,8 @@ Control your computers keyboard and mouse remotely with your smartphone via Touc
 ## Installation
 
 Follow this step-by-step guide to install OscRemoteControl on your computer. There are two ways of running the OscRemoteControl on your computer:
-1. By running the executable of your operating system which can be found in the `executables` folder. This will require you to have a java runtime environment installed on your computer. This is the recommended way of running OscRemoteControl because the program will boot much faster and you wont need to install the processing environment (which is build on top of java).
-2. By installing processing and running `oscRemoteControl.pde`. This will automatically install a java runtime environment, but you will need to manually install a library called [oscP5](http://www.sojamo.de/libraries/oscP5/).
 
-### 1. Run OscRemoteControl with Java Runtime Environment
+### 1. Run OscRemoteControl with Java Runtime Environment (recommended)
 1. Install the [java runtime environment](https://www.java.com/en/download/). If you have java already installed on your machine the installer will recognize this and check for updates. If any updates are suggested, be sure to upgrade.
 2. Download this repository, navigate to the `executables` folder and choose your operating system. For example if you have a windows x64 OS, run the `oscRemoteControl.exe` file inside `executables/application.windows64/`. 
 3. If you see the following screen, you have successfully installed OscRemoteControl on your computer:<br>
