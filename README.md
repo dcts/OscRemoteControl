@@ -2,20 +2,21 @@
 
 Control your computers keyboard and mouse remotely with your smartphone via TouchOSC. You can find a demonstration of the programm [here](). You will need:
 - computer and a smartphone connected to the same wifi network!
-- either Java runntime environment or processing installed
-- TouchOSC app ([Android](https://play.google.com/store/apps/details?id=net.hexler.touchosc_a&hl=en_US) or [iPhone](https://itunes.apple.com/us/app/touchosc/id288120394) app that can send OSC messages, you will need to purchase it in the appstore for 5$)
-- TouchOSC Editor (downloadable for free here) to import the OSC Layout
+- either java runntime environment or processing installed
+- TouchOSC app (app availible for iPhone and Android that can send OSC messages, you will need to purchase it for 5$)
+- TouchOSC Editor (downloadable for free) to import the custom OscRemoteControl layout.
 
 ## Installation
 
 Follow this step-by-step guide to install OscRemoteControl on your computer. There are two ways of running the OscRemoteControl on your computer:
-1. by running the executable of your operating system which can be found in the `[executables]("executables/")` folder. This will require you to have a java runtime environment installed on your computer. This is the recommended way of running OscRemoteControl because the program will boot much faster and you wont need to install the processing environment (which is build on top of java).
+1. by running the executable of your operating system which can be found in the `executables` folder. This will require you to have a java runtime environment installed on your computer. This is the recommended way of running OscRemoteControl because the program will boot much faster and you wont need to install the processing environment (which is build on top of java).
 2. by installing processing and running [oscRemoteControl.pde](oscRemoteControl.pde). This will automatically install a java runtime environment, but you will need to manually install a library called oscP5.
 
 ### 1. Run OscRemoteControl with Java Runtime Environment
-1. install the [Java Runtime Environment](https://www.java.com/en/download/). If you have Java already installed on your machine the installer will recognize this and check for updates. If any updates are suggested, be sure to upgrade.
-2. download this repository, navigate to the [executables]() folder and choose the folder of your operating system. For example if you have a Windows 64 bits OS run the `oscRemoteControl.exe` file inside `executables/application.windows64`. 
-3. If you see the following screen, you have successfully installed OscRemoteControl on your computer:<br>
+1. install the [java runtime environment](https://www.java.com/en/download/). If you have java already installed on your machine the installer will recognize this and check for updates. If any updates are suggested, be sure to upgrade.
+2. download this repository, navigate to the `executables` folder and choose your operating system. For example if you have a windows x64 OS run the `oscRemoteControl.exe` file inside `executables/application.windows64/`. 
+3. If you see the following screen, you have successfully installed OscRemoteControl on your computer:<br><br>
+<img width="450px" src="https://user-images.githubusercontent.com/44790691/54880769-11d10180-4e49-11e9-9cf9-3693b464ca6c.PNG">
 
 
 ### 2. Run OscRemoteControl with Processing
@@ -36,8 +37,3 @@ To import the keyboard and mouse layout, you will additionaly need the TouchOSC 
 Once the layout is succesfully imported, you will need to setup the ip-address and port inside your TouchOSC app. In the "connections" setting, eneble OSC and insert the information shown by the OscRemoteControl. Now you should be connected and able to control your keyboard and mouse via smartphone! 
 
 If you run into any issues feel free to open an Issue, I'm glad to help! 
-
-
-
-
-
