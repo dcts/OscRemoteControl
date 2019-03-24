@@ -12,7 +12,7 @@ Follow this step-by-step guide to install OscRemoteControl on your computer. The
 
 ### 1. Run OscRemoteControl with Java Runtime Environment (recommended)
 1. Install the [java runtime environment](https://www.java.com/en/download/). If you have java already installed on your machine the installer will recognize this and check for updates. If any updates are suggested, be sure to upgrade.
-2. Download this repository, navigate to the `executables` folder and choose your operating system. For example if you have a windows x64 OS, run the `oscRemoteControl.exe` file inside `executables/application.windows64/`. 
+2. Download this repository and run the executable for your operating system. For example, if you have a windows x64 OS, run `oscRemoteControl.exe` which is located inside `executables/application.windows64/`. 
 3. If you see the following screen, you have successfully installed OscRemoteControl on your computer:<br>
 <img width="400px" src="https://user-images.githubusercontent.com/44790691/54880769-11d10180-4e49-11e9-9cf9-3693b464ca6c.PNG">
 
