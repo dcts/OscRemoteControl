@@ -25,11 +25,11 @@ Follow this step-by-step guide to install OscRemoteControl on your computer. The
 
 ### Linking TouchOSC
 
-Once the OscRemoteControl runs on your computer, you will need to download the TouchOSC app (this app costs 5$). You can download the app here:
-- [Android](https://play.google.com/store/apps/details?id=net.hexler.touchosc_a&hl=en_US)
-- [iPhone](https://itunes.apple.com/us/app/touchosc/id288120394)
+Once the OscRemoteControl runs on your computer, you will need to download the TouchOSC app. You can download the app here:
+- [TouchOSC for Android](https://play.google.com/store/apps/details?id=net.hexler.touchosc_a&hl=en_US)
+- [TouchOSC for iPhone](https://itunes.apple.com/us/app/touchosc/id288120394)
 
-To import the keyboard and mouse layout, you will additionaly need the TouchOSC Editor, which can be downloaded [here](https://hexler.net/software/touchosc) (be sure to scroll down to the "downloads" section and choose the right operating system). Extract the downloaded .zip file and run the TouchOSC Editor. Go to `Open` and import the previously downloaded file `TouchOSC-Layout\_RemoteControl.touchosc` from this repository. You should now see the keyboard layout. To import this layout to your smartphone click on `Sync` and follow the instructions. 
+To import the keyboard and mouse layout, you will additionaly need the TouchOSC Editor, which can be downloaded [here](https://hexler.net/software/touchosc) (be sure to scroll down to the "downloads" section and choose the right operating system). Extract the downloaded .zip file and run the TouchOSC Editor. Inside the program go to `Open` and import the previously downloaded file `TouchOSC-Layout\_RemoteControl.touchosc` from this repository. You should now see the keyboard layout. To import this layout to your smartphone click on `Sync` and follow the instructions. 
 
 Once the layout is succesfully loaded, you will need to setup the ip-address and port inside your TouchOSC app. In the `CONNECTIONS` settings of the app, eneble OSC and insert the information shown by OscRemoteControl. Now you should be connected and able to control your keyboard and mouse via smartphone.
 
