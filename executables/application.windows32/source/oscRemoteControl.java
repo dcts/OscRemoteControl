@@ -24,7 +24,7 @@ import java.io.InputStream;
 import java.io.OutputStream; 
 import java.io.IOException; 
 
-public class oscRemoteControl extends PApplet {
+public class OscRemoteControl extends PApplet {
 
 /* OSC Remote Control
  * Version 1.0 / 23.03.2019
@@ -525,7 +525,7 @@ class Mouse {
   }
 }
   static public void main(String[] passedArgs) {
-    String[] appletArgs = new String[] { "oscRemoteControl" };
+    String[] appletArgs = new String[] { "OscRemoteControl" };
     if (passedArgs != null) {
       PApplet.main(concat(appletArgs, passedArgs));
     } else {
