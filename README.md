@@ -29,8 +29,11 @@ Once the OscRemoteControl runs on your computer, you will need to download the T
 - [TouchOSC for Android](https://play.google.com/store/apps/details?id=net.hexler.touchosc_a&hl=en_US)
 - [TouchOSC for iPhone](https://itunes.apple.com/us/app/touchosc/id288120394)
 
-To import the keyboard and mouse layout, you will additionaly need the TouchOSC Editor, which can be downloaded [here](https://hexler.net/software/touchosc) (be sure to scroll down to the "downloads" section and choose the right operating system). Extract the downloaded .zip file and run the TouchOSC Editor. Inside the program go to `Open` and import the previously downloaded file `TouchOSC-Layout\_RemoteControl.touchosc` from this repository. You should now see the keyboard layout. To import this layout to your smartphone click on `Sync` and follow the instructions. 
+To import the keyboard and mouse layout, you will additionaly need the TouchOSC Editor, which can be downloaded [here](https://hexler.net/software/touchosc) (be sure to scroll down to the "downloads" section and choose the right operating system). Extract the downloaded .zip file and run the TouchOSC Editor. Inside the program go to `Open` and import the previously downloaded file `TouchOSC-Layout\_RemoteControl.touchosc` from this repository. You should now see the keyboard layout. To import this layout to your smartphone click on `Sync` and follow the instructions. You should now be able to switch between these 4 screens:<br><br>
+<img width="450px" src="https://user-images.githubusercontent.com/44790691/54986965-ee769580-4fb3-11e9-8067-4f3cb596dea9.gif">
 
 Once the layout is succesfully loaded, you will need to setup the ip-address and port inside your TouchOSC app. In the `CONNECTIONS` settings of the app, eneble OSC and insert the information shown by OscRemoteControl. Now you should be connected and able to control your keyboard and mouse via smartphone.
 
 If you run into any issues feel free to open an Issue, I'm glad to help! 
+
+
