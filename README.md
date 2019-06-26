@@ -1,4 +1,6 @@
 # OSC Remote Control
+[![](https://i.ytimg.com/vi/pXnYKnZgFZQ/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIpCGAFwAQ==&rs=AOn4CLBYdzFqwHKlPJKerxNip08K9E-QUA)](https://youtu.be/pXnYKnZgFZQ)
+
 
 Control your computers keyboard and mouse remotely with your smartphone via TouchOSC. You can find a demonstration of the programm [here](https://youtu.be/pXnYKnZgFZQ). You will need:
 - computer and a smartphone connected to the same wifi network!
@@ -35,5 +37,3 @@ To import the keyboard and mouse layout, you will additionaly need the TouchOSC 
 Once the layout is succesfully loaded, you will need to setup the ip-address and port inside your TouchOSC app. In the `CONNECTIONS` settings of the app, eneble OSC and insert the information shown by OscRemoteControl. Now you should be connected and able to control your keyboard and mouse via smartphone.
 
 If you run into any issues feel free to open an Issue, I'm glad to help! 
-
-
