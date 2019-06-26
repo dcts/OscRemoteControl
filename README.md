@@ -5,7 +5,7 @@
 Control your computers keyboard and mouse remotely with your smartphone via TouchOSC. You can find a demonstration of the programm [here](https://youtu.be/pXnYKnZgFZQ). You will need:
 - computer and a smartphone connected to the same wifi network!
 - either java runntime environment or processing installed
-- TouchOSC smartphone app (availible for iPhone and Android, can be purchased for 5$)
+- [TouchOSC smartphone app](#linking-touchosc) (availible for iPhone and Android, can be purchased for 5$)
 - TouchOSC Editor (downloadable for free) to import the custom OscRemoteControl layout.
 
 ## Installation
